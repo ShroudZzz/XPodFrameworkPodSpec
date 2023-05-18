@@ -10,3 +10,9 @@
 8. `git push --tags`
 9. `pod trunk register enail username`
 10. `pod trunk push *.podspec --allow-warnings`
+
+#FAQ
+`pod search xxx`  
+> Unable to find a pod with name, author, summary, or description matching  
+
+Delete search index `rm ~/Library/Caches/CocoaPods/search_index.json ` 
